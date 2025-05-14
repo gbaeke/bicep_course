@@ -1,0 +1,6 @@
+configuration:
+  AZURE_BICEP_FILE_EXPANSION: true
+  AZURE_BICEP_CHECK_TOOL: true
+include:
+  module:
+    - PSRule.Rules.Azure

@@ -20,3 +20,13 @@
 - Script provided: `deploy_avm.sh`
 - Example Bicep file: `main.bicep`
 
+## 4. Intermediate Scenarios (`intermediate/` folder)
+- `deploy.sh` and `main.bicep`: Use together for more complex deployments that go beyond the basics
+- Uses Azure Virtual Modules with networking and private endpoints
+- Use it to illustrate using listkeys to retrieve storage account key for storage in key vault + explicit dependency on storage account before secret is set
+
+
+## 5. Advanced Scenarios (`advanced/` folder)
+- `deploy_stack.sh` and `stack.bicep`: Use together to deploy a Bicep template as a deployment stack and optionally delete it after deployment
+- `deploy_udf.sh` and `udf.bicep`: Use together to deploy and demonstrate user-defined functions in Bicep
+
