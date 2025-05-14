@@ -30,6 +30,7 @@
 - `deploy_stack.sh` and `stack.bicep`: Use together to deploy a Bicep template as a deployment stack and optionally delete it after deployment
 - `deploy_udf.sh` and `udf.bicep`: Use together to deploy and demonstrate user-defined functions in Bicep
 
+<<<<<<< HEAD
 ## 6. PSRule
 
 ```bash
@@ -37,3 +38,5 @@ pwsh
 
 Assert-PSRule -InputPath './step2.bicep' -Module 'PSRule.Rules.Azure' -OutputFormat Json -OutputPath ./psrule-results.json
 ```
+=======
+>>>>>>> 316614e (add more stuff :-))
